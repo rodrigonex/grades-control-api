@@ -1,10 +1,10 @@
 {
   "name": "grades-control-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,14 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigonex/grades-control-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigonex/grades-control-api/issues"
+  },
+  "homepage": "https://github.com/rodrigonex/grades-control-api#readme",
+  "description": ""
 }
